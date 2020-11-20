@@ -1,1 +1,2 @@
-qr-scaner-app
+#qr-scaner-app
+#https://kapustiansky.github.io/qrscaner-react/
