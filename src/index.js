@@ -9,7 +9,7 @@ import './index.css';
 const App = () => {
 
 return	(
-	<Router>
+	<Router  basename="/qrscaner-react">
 	<section className="container my-5 px-0 z-depth-1 p-5 my-md-5 text-center main-section">
 			<Route path="/" component={LocalStor} />
 	</section>

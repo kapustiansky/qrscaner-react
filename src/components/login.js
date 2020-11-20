@@ -13,7 +13,7 @@ class LoginPage extends Component  {
 
       onSubmit = (e) => {
         const baseEncode = base64.encode(this.state.login + ':' + this.state.password);
-				localStorage.setItem('jwt', baseEncode);
+        localStorage.setItem('jwt', baseEncode);
         //e.preventDefault();
         this.setState({
           login: ''
